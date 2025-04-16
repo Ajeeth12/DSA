@@ -12,3 +12,7 @@ def remove_duplicates(nums):
     print(slow + 1)  # The number of unique elements
 nums = [1, 1, 2, 2, 3, 4, 7, 8, 8]
 remove_duplicates(nums)
+
+
+## Time Complexity = O(n) - Single pass through the array
+## Space Complexity =  O(1) - In-place modification, no extra memory
